@@ -1,0 +1,77 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+.container{
+    min-height: 100vh;
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    color: rgb(200, 124, 57);
+}
+.container .question{
+    height: 40px;
+    width: 400px;
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(141, 139, 139, 0.2);
+    transition: all 0.2s ease;
+    border-radius: 5px;
+}
+.container .question span{
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 5px;
+    
+}
+.container .question button{
+    
+    width: 25px;
+    border: 2px solid rgb(200, 124, 57);
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(200, 124, 57);
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.2s ease ;
+    float: right;
+}
+
+.container .question button:hover{
+    background-color: rgb(200, 124, 57);
+    color: white;
+}
+.container .question button:active{
+    background-color: white;
+    
+}
+.container .question .line{
+    width: 90%;
+    height: 1px;
+    background-color: rgba(163, 160, 160, 0.87);
+    margin-top: 10px;
+}
+.container .question p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(160, 160, 160);
+}
+
+.container .active{
+    height: 120px;
+}
